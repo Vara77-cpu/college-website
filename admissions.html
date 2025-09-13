@@ -9,6 +9,7 @@
 </head>
 <body>
   
+  <!-- Sub-header / Navbar -->
   <section class="sub-header">
     <nav>
       <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
@@ -17,7 +18,7 @@
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
-          <li><a href="Admissons.html" class="active">ADMISSIONS</a></li>
+          <li><a href="Admissions.html" class="active">ADMISSIONS</a></li>
           <li><a href="course.html">COURSE</a></li>
           <li><a href="blog.html">BLOG</a></li>
           <li><a href="contact.html">CONTACT</a></li>
@@ -27,8 +28,8 @@
     </nav>
     <h1>Admissions</h1>
   </section>
-<!---------- Admission Form ---------->
-    
+
+  <!-- Admission Form -->
   <section class="admission">
     <h2>Apply for Admission</h2>
     <p>Please fill out the form below to apply for admission at Gokul Group of Institutions.</p>
@@ -40,10 +41,10 @@
       
       <select name="course" required>
         <option value="">-- Select Course --</option>
-        <option>B.Tech (EAMCET Code: GGIB)</option>
-        <option>M.Tech (PGCET Code : GGIB)</option>
-        <option>MBA (ICET Code: GGIB)</option>
-        <option>(CEEP Code : GGIB)</option>
+        <option value="btech">B.Tech (EAMCET Code: GGIB)</option>
+        <option value="mtech">M.Tech (PGCET Code: GGIB)</option>
+        <option value="mba">MBA (ICET Code: GGIB)</option>
+        <option value="ceep">CEEP (Code: GGIB)</option>
       </select>
       
       <textarea name="message" rows="4" placeholder="Any additional details"></textarea>
@@ -52,20 +53,20 @@
     </form>
   </section>
 
-  <!-------- footer ---------->
+  <!-- Footer -->
   <section class="footer">
     <h4>About Us</h4>
     <p>Gokul Group of Institutions, approved by AICTE & affiliated to JNTU Kakinada.<br>Providing quality education since 2001.</p>
     <div class="icons">
-      <i class="fa fa-facebook"></i>
-      <i class="fa fa-twitter"></i>
-      <i class="fa fa-instagram"></i>
-      <i class="fa fa-linkedin"></i>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
     </div>
     <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
   </section>
 
-  <!----JavaScript for toggle menu---->
+  <!-- JavaScript for toggle menu -->
   <script>
     var navLinks = document.getElementById("navLinks");
     function showMenu() { navLinks.style.right = "0"; }
@@ -74,4 +75,3 @@
 
 </body>
 </html>
-
