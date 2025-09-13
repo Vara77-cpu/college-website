@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <!-- Header Section -->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Admissions.html">ADMISSIONS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Gokul Group of Institutions</h1>
+            <p>Join Gokul today which is Fourth Best Engineering College in AP for the year 2024-2025<br></p>
+            <a href="contact.html" class="hero-btn">Visit Us to Know More</a>
+        </div>
+    </section>
+
+    <!-- Admission Section -->
+    <section class="admission">
+        <h2>Apply for Admission</h2>
+        <p>Please fill out the form below to apply for admission at Gokul Group of Institutions.</p>
+
+        <form action="https://formspree.io/f/mrbadoqo" method="POST" class="admission-form">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            
+            <select name="course" required>
+                <option value="">-- Select Course --</option>
+                <option>B.Tech (EAMCET Code: GGIB)</option>
+                <option>M.Tech (PGCET Code : GGIB)</option>
+                <option>MBA (ICET Code: GGIB)</option>
+                <option>Diploma (CEEP Code : GGIB)</option>
+            </select>
+            
+            <textarea name="message" rows="4" placeholder="Any additional details"></textarea>
+            
+            <button type="submit" class="hero-btn">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>B.Tech (EAMCET Code: GGIB)</h3>
+                <p>Computer Science Engineering (CSE)</p>
+                <p>Data Science (D.S)</p>
+                <p>Artificial Intelligence & Machine Learning</p>
+                <p>Mechanical Engineering (Mech)</p>
+                <p>Civil Engineering (Civil)</p>
+            </div>
+            <div class="course-col">
+                <h3>M.Tech (PGCET Code : GGIB)</h3>
+                <p>Power Systems</p>
+                <p>GEO Technical Engg</p>
+                <p>Thermal Engineering</p>
+            </div>
+            <div class="course-col">
+                <h3>MBA (ICET Code: GGIB)</h3>
+                <p>Marketing</p>
+                <p>Finance</p>
+                <p>Human Resource</p>
+            </div>
+            <div class="course-col">
+                <h3>Diploma (CEEP Code : GGIB)</h3>
+                <p>Electrical & Electronics Engg. (EEE)</p>
+                <p>Mechanical Engineering (Mech)</p>
+                <p>Civil Engineering (Civil)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Section -->
+    <section class="campus">
+        <h1>Our campus</h1>
+        <p>CAMPUS HIGHLIGHTS</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/computer.jpg" alt="Lab">
+                <div class="layer"><h3>Computer Labs</h3></div>
+            </div>
+            <div class="campus-col">
+                <img src="images/chemical.jpg" alt="Chemistry">
+                <div class="layer"><h3>Chemical Labs</h3></div>
+            </div>
+            <div class="campus-col">
+                <img src="images/workshop.jpg" alt="Workshop">
+                <div class="layer"><h3>Workshop</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <div class="row">
+            <div class="facility-col">
+                <img src="images/library.jpg" alt="Library">
+                <h3>Best Library</h3>
+                <p></p>
+            </div>
+            <div class="facility-col">
+                <img src="images/playground.jpg" alt="Playground">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="facility-col">
+                <img src="images/canteen.jpg" alt="Canteen">
+                <h3>Tasty and Healthy Food Canteen</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="facility-col">
+                <img src="images/hostel.jpg"alt="Hostel">
+                <h3>Hygienic Hostel Facility</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="facility-col">
+                <img src="images/transport.jpg" alt="Transport">
+                <h3>Transport Facility</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg" alt="User1">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/user2.jpg" alt="User2">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>David Byer</h3>
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta">
+        <h1>Enroll Now for Our Various Courses<br>From Anywhere</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>    
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>GOKUL Group of Institutions were established by Mother Theresa's Educational Society in 2001 under the Chairmanship of Sri Kanjerla Lakshmi Narayana Yadav.</p>
+        <h5>Board Of Governors</h5>
+        <p>Dr. Botta Venkata Ramana, Er. Madhusudhan Kukkala, Mrs. Botta Jayasree, Dr. M Sumalatha, Mr. Giridhar Yadhav, Dr. V. Ravindra, Dr. O. Rama Mohanarao</p>
+        <h5>NRI Directors</h5>
+        <p>Dr. Narendra Babu Koyyalamudi, Er. M. A. Ashok Kumar</p>
+        <div class="icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> For Gokul group of institions </p>
+    </section>    
+
+    <!-- JavaScript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() { navLinks.style.right = "0"; }
+        function hideMenu() { navLinks.style.right = "-200px"; }
+    </script> 
+</body>
+</html>
