@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WELCOME TO GOKUL GROP OF INSTITUTIONS </title>
+<title>University Website Design - Easy Tutorials</title>
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
@@ -33,30 +33,54 @@
         </div>
     </section>
 
-   <!-- Admission Form -->
-  <section class="admission">
-    <h2>Apply for Admission</h2>
-    <p>Please fill out the form below to apply for admission at Gokul Group of Institutions.</p>
+    <!-- Admission Section -->
+    <section class="admission">
+        <h2>Apply for Admission</h2>
+        <p>Please fill out the form below to apply for admission at Gokul Group of Institutions.</p>
 
-    <form action="https://formspree.io/f/mrbadoqo" method="POST" class="admission-form">
-      <input type="text" name="name" placeholder="Full Name" required>
-      <input type="email" name="email" placeholder="Email Address" required>
-      <input type="tel" name="phone" placeholder="Phone Number" required>
-      
-      <select name="course" required>
-        <option value="">-- Select Course --</option>
-        <option value="btech">B.Tech (EAMCET Code: GGIB)</option>
-        <option value="mtech">M.Tech (PGCET Code: GGIB)</option>
-        <option value="mba">MBA (ICET Code: GGIB)</option>
-        <option value="ceep">CEEP (Code: GGIB)</option>
-      </select>
-      
-      <textarea name="message" rows="4" placeholder="Any additional details"></textarea>
-      
-      <button type="submit" class="hero-btn">Submit Application</button>
-    </form>
+        <form action="https://formspree.io/f/mrbadoqo" method="POST" class="admission-form">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            
+            <select name="course" required>
+                <option value="">-- Select Course --</option>
+                <option>B.Tech (EAMCET Code: GGIB)</option>
+                <option>M.Tech (PGCET Code : GGIB)</option>
+                <option>MBA (ICET Code: GGIB)</option>
+                <option>Diploma (CEEP Code : GGIB)</option>
+            </select>
+            
+            <textarea name="message" rows="4" placeholder="Any additional details"></textarea>
+            
+            <button type="submit" class="hero-btn">Submit Application</button>
+        </form>
+    </section>
+      <!-- Footer -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Gokul Group of Institutions, approved by AICTE & affiliated to JNTUJV VIJAYANAGARAM.<br>Providing quality education since 2001.</p>
+    <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> for gokul group of inistitutions </p>
   </section>
-    
+
+  <!-- JavaScript for toggle menu -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() { navLinks.style.right = "0"; }
+    function hideMenu() { navLinks.style.right = "-200px"; }
+  </script>
+
+</body>
+</html>
+
+
+
     <!-- Courses Section -->
     <section class="course">
         <h1>Courses We Offer</h1>
@@ -197,5 +221,3 @@
     </script> 
 </body>
 </html>
-
-
