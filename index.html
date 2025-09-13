@@ -33,30 +33,30 @@
         </div>
     </section>
 
-    <!-- Admission Section -->
-    <section class="admission">
-        <h2>Apply for Admission</h2>
-        <p>Please fill out the form below to apply for admission at Gokul Group of Institutions.</p>
+   <!-- Admission Form -->
+  <section class="admission">
+    <h2>Apply for Admission</h2>
+    <p>Please fill out the form below to apply for admission at Gokul Group of Institutions.</p>
 
-        <form action="https://formspree.io/f/mrbadoqo" method="POST" class="admission-form">
-            <input type="text" name="name" placeholder="Full Name" required>
-            <input type="email" name="email" placeholder="Email Address" required>
-            <input type="tel" name="phone" placeholder="Phone Number" required>
-            
-            <select name="course" required>
-                <option value="">-- Select Course --</option>
-                <option>B.Tech (EAMCET Code: GGIB)</option>
-                <option>M.Tech (PGCET Code : GGIB)</option>
-                <option>MBA (ICET Code: GGIB)</option>
-                <option>Diploma (CEEP Code : GGIB)</option>
-            </select>
-            
-            <textarea name="message" rows="4" placeholder="Any additional details"></textarea>
-            
-            <button type="submit" class="hero-btn">Submit Application</button>
-        </form>
-    </section>
-
+    <form action="https://formspree.io/f/mrbadoqo" method="POST" class="admission-form">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      
+      <select name="course" required>
+        <option value="">-- Select Course --</option>
+        <option value="btech">B.Tech (EAMCET Code: GGIB)</option>
+        <option value="mtech">M.Tech (PGCET Code: GGIB)</option>
+        <option value="mba">MBA (ICET Code: GGIB)</option>
+        <option value="ceep">CEEP (Code: GGIB)</option>
+      </select>
+      
+      <textarea name="message" rows="4" placeholder="Any additional details"></textarea>
+      
+      <button type="submit" class="hero-btn">Submit Application</button>
+    </form>
+  </section>
+    
     <!-- Courses Section -->
     <section class="course">
         <h1>Courses We Offer</h1>
@@ -197,3 +197,4 @@
     </script> 
 </body>
 </html>
+
